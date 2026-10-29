@@ -6,7 +6,7 @@ CREATE TABLE Jogo (
     nome VARCHAR(100) NOT NULL,
     genero VARCHAR(100) NOT NULL,
     preco DECIMAL(10,2) NOT NULL,
-    plataformas VARCHAR(50),
+    plataforma VARCHAR(50) NOT NULL,
     codigoDeAcesso VARCHAR(50),
     tipo VARCHAR(30)
 );
